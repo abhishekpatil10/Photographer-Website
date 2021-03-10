@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Head h1{
+    color:white;
+    padding-top: .3em;
+    border-bottom: 2px solid green;
+    text-align: center;
+}
+ .hm h1{
+    border-bottom: 2px solid springgreen;
+    text-align: center;
+    margin: .5em;
+    color: white;
+    padding: 0.5em 0;
+    border-top: 0.1px solid white;
+}
+.Cont{
+    height: 55vh;
+    background-color: black;
+    margin: 2em;
+    box-shadow: 10px  10px;
+   
+}
+.Cont img{
+    height: 55vh;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 5px 5px white;
+}
+.Cont img:hover{
+    transform: scaleX(-1); 
+}
+.Cont p{
+    font-size: 45px;
+    padding:.5em 0 .1em;
+    font-weight: bolder;
+    color: white
+}
+
+.Cont h2{
+    font-size: 30px;
+    color: white;
+}
+.Cont h3 {
+    color: white;
+    font-size: 25px;
+    padding: .5em;
+}
+.Abt{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.Abdet{
+    box-shadow: 5px 5px white;
+    margin: 1em;
+    justify-content: space-between;
+    border-radius: 1em;
+}
+.Abdet img{
+    padding: 1em;
+}
+.Abt h1{
+    color: white;
+    margin: 1em;
+    padding: 0.5em 0;
+    margin-top: 6.2em;
+    border-top: 2px solid white;
+    border-bottom: 2px solid springgreen;
+}
+.Abt h2{
+    color: white;
+    padding: .5em;
+}
+
+.Sam h1{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid springgreen;
+    margin:1em 1em;
+    padding: 0.5em 0;
+    border-top: 2px solid white;
+}
+
+.Sam img{
+    margin: 1em;
+    width: 92%;
+    height:45vh;
+}
+.Sam img:hover{
+    transform: scale(1.2); 
+}
+.Ctc h1{
+    text-align: center;
+    margin:1em 1em;
+    color: white;
+    padding: 0.5em 0;
+    border-bottom: 2px solid rgb(64, 88, 76);
+    border-top: 2px solid white;
+}
+
+.Ctc input{
+    margin: 1em 4em;
+    width: 13em;
+    padding: 1em;
+    border: none;
+    color: white;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    font-size: large;
+}
+.Ctc textarea{
+    margin-left: 4.3em;
+    width: 15em;
+    font-size: large;
+    color:white;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    
+}
+.Ctc button{
+    margin-left: 35%;
+    background-color: black;
+    padding: .5em;
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.Ctc ::placeholder{
+ color:aliceblue;
+}
+.Head p{
+    font-size: 30px;
+    margin-top: -1.3em;
+    padding-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 28px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  
+@media screen and (min-width:565px){
+    *{
+        background-color: black;
+    }
+    .Cont{
+        width:50%;
+        margin-left: 25%;
+        margin-bottom: 5em;
+        height: 80vh;
+    }
+    .Cont img{
+        width: 100%;
+        height: 80vh;
+    }
+    .Sam img{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .Ctc input{
+        border-bottom-color: white;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20em;
+    }
+    .Ctc textarea{
+        border-bottom-color: white;
+        width: 50%;
+        margin-left: 22.5em;
+    }
+    .Ctc form button{
+        margin-left:32em;
+    }
+    .Head h1{
+        color: white;
+    }
+    .hm h1{
+        color: white;
+    }
+}
+
+
